@@ -1,0 +1,28 @@
+
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+backend/venv/
+venv/
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Local databases
+backend/stylehub.db
+*.db-journal
+*.sqlite3
